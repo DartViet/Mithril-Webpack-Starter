@@ -1,0 +1,24 @@
+{
+  "name": "mithril1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack --mode=development --watch",
+    "lint" : "npx eslint ./src",
+    "lintfix": "npx eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^2.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "html-webpack-plugin": "^5.5.3"
+  }
+}
