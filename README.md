@@ -4,7 +4,7 @@
 
 This Project is to help Mithril.js developers save time setting up new project. Using webpack, eslint, and jest, hopefully it helps developers save a hurtsle of setting up Mithril project
 
-This Project is to be used with **VSCODE** and **Live Server**
+This Project is to be used with [vscode](https://code.visualstudio.com/) and [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) plugin
 
 
 ## Authors
