@@ -2,7 +2,8 @@
 # Mithril Starter Project
 
 
-This Project is to help Mithril.js developers save time setting up new project.\
+This Project is to help Mithril.js developers save time setting up new project. Using webpack, eslint, and jest, hopefully it helps developers save a hurtsle of setting up Mithril project
+
 This Project is to be used with **VSCODE** and **Live Server**
 
 
