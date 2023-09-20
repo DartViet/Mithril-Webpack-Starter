@@ -10,4 +10,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({template: 'index.html'})
   ],
+  module:{
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /^(?!.*\.test\.js$).*\.js$/
+      }
+    ]
+  }
 };
