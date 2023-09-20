@@ -1,14 +1,53 @@
-# MithrilStarter
-Mithril Starter Proj, save time for setting  up project
+
+# Mithril Starter Project
+
+
+This Project is to help Mithril.js developers save time setting up new project.\
+This Project is to be used with **VSCODE** and **Live Server**
+
+
+## Authors
+
+- [@dartviet](https://github.com/DartViet)
+
+
+## Documentation
+
+*this is for javascript only*
+
+To run this:
+
+```shell
+    npm install
+    npm run start
+```
+
+Then open **Live Server**
+
+Also:
 
 To build project:
-npm run build
 
-To run project:
-npm run start
+```shell
+    npm run build
+```
 
-To run lint:
-npm run lint
+To check eslint:
 
-To run and fix lint:
-npm run lintfix
+```shell
+    npm run lint
+```
+
+To check and fix eslint:
+
+```shell
+    npm run lintfix
+```
+
+also, please add ```//@ts-check```, ```"use strict";``` and add [jsdoc](https://jsdoc.app/) to make sure your javascript type run correctly.
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
