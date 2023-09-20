@@ -44,6 +44,12 @@ To check and fix eslint:
     npm run lintfix
 ```
 
+To run test with [jest](https://jestjs.io/):
+
+```shell
+    npm run test
+```
+
 also, please add ```//@ts-check```, ```"use strict";``` and add [jsdoc](https://jsdoc.app/) to make sure your javascript type run correctly.
 
 
