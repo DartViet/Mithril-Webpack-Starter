@@ -17,5 +17,5 @@ module.exports = {
         exclude: /^(?!.*\.test\.js$).*\.js$/
       }
     ]
-  }
+  },
 };
