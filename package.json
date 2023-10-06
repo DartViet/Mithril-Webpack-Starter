@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode=production",
-    "start": "webpack --mode=development --watch",
+    "build": "npm run lint && webpack --mode=production",
+    "start": "npm run lint && webpack --mode=development --watch",
     "lint": "npx eslint ./src",
     "lintfix": "npx eslint ./src --fix",
     "test": "jest"
