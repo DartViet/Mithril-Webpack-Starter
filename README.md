@@ -53,8 +53,6 @@ To run test with [jest](https://jestjs.io/):
     npm run test
 ```
 
-also, please add ```//@ts-check```, ```"use strict";``` and add [jsdoc](https://jsdoc.app/) to make sure your javascript type run correctly.
-
 ## Video Tutorial
 
 https://github.com/DartViet/MithrilStarter/assets/65820964/a0334659-07df-437e-a5fa-95260eb66749
