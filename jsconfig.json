@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
       "module": "commonjs",
-      "target": "es2022",
-      "checkJs": true
+      "target": "esnext",
+      "checkJs": true,
+      "alwaysStrict": true
     },
     "include": ["src"],
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "dist"],
   }
